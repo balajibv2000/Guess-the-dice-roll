@@ -22,7 +22,7 @@ function startGame(){
 }
 
 function select(){
-    randomNumber = Math.floor(Math.random()*6) + 1;
+    randomNumber = 1 //Math.floor(Math.random()*6) + 1;
     $(".btn").click(function (){
         $(".btn").removeClass("pressed")
         userChosenNumber = $(this).attr("id");
